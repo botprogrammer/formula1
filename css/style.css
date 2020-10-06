@@ -1,0 +1,216 @@
+html,
+body {
+  /* font-family: "Piazzolla", serif; */
+  /* font-family: "Poppins", sans-serif; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+/* Navbar init */
+
+.mainnav {
+  background-color: red;
+}
+.mainnav .navlogo {
+  margin-left: 5%;
+  color: black;
+}
+.mainnav .navlogo:hover {
+  text-decoration: none;
+}
+.mainnav .navlinks {
+  margin-right: 5%;
+}
+.mainnav .navlinks li a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+.mainnav li a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar end */
+
+/* carousel init*/
+.owl-stage-outer {
+  background-color: black;
+}
+
+.carouselouter .owl-stage-outer {
+  max-height: 220px !important;
+}
+
+/* carousel end*/
+.row {
+  margin-bottom: 0 !important;
+}
+.redbgrow {
+  background-color: red;
+  color: black;
+}
+.redbgrowtext h1 {
+  padding-top: 3%;
+}
+.cardtext1 {
+  font-family: "Sansita Swashed", cursive;
+}
+.cardtext1 h1 {
+  padding-bottom: 4%;
+}
+.blackbgrow {
+  background-color: black;
+  color: red;
+}
+.cardtext h1 {
+  font-family: "Sansita Swashed", cursive;
+}
+.cardtext p {
+  font-size: large;
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 300;
+}
+.card-title {
+  text-align: center;
+}
+.cardimgul h4 {
+  margin-top: 0.5rem;
+}
+.redbgrow .card-body {
+  padding: 2.5rem 1.25rem !important;
+}
+.blackbgrow .card-body {
+  padding: 2.5rem 1.25rem !important;
+}
+.cardimg img {
+  padding: 1.5rem 1rem;
+}
+.cardimg img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.page-footer {
+  background-color: black !important;
+}
+.fab {
+  background-color: red;
+}
+.fab::before {
+  color: black;
+}
+.footpar {
+  font-weight: lighter;
+  color: red;
+}
+.redbgrowtext h1 {
+  text-align: center;
+  font-weight: lighter;
+  color: black;
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.ourcarsheader {
+  padding: 2.5rem;
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+.carouselouter {
+  height: auto;
+}
+.ourcarsrowcol {
+  display: flex;
+}
+.ourcarsrowcol .card-body {
+  background-color: black;
+  color: red;
+}
+.ourcarsrowcol li {
+  background-color: red;
+  color: black;
+}
+.ourcarsrowcol .card {
+  border: transparent;
+}
+.footer {
+  background-color: black;
+}
+.footer a {
+  color: red;
+}
+.footer .text {
+  color: red;
+}
+.footer a:hover {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.footer ul {
+  margin-top: 17px;
+}
+#Capa_1 {
+  color: red;
+  fill: red;
+}
+@media (min-width: 1024px) {
+  .owl-stage-outer {
+    max-height: 430px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .ourcarsrow {
+    padding-bottom: 10px !important;
+    background-color: black;
+  }
+}
+@media (max-width: 426px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+  #Capa_1 {
+    display: none;
+  }
+  .navlinks .navlink a {
+    font-size: 0.8rem;
+    padding: 0 10px;
+  }
+  .redbgrow .cardimg {
+    padding: 0rem 1.25rem 2.5rem 1.25rem !important;
+  }
+  .blackbgrow .cardimg {
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem !important;
+  }
+  .cardimg img {
+    padding: 0;
+  }
+  canvas {
+    display: none !important;
+  }
+}
+@media (max-width: 321px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+  .footer ul a {
+    margin-left: 0.4rem !important;
+  }
+  #Capa_1 {
+    display: none;
+  }
+  .navlinks .navlink a {
+    font-size: 0.7rem;
+    padding: 0 8px;
+  }
+}
